@@ -10,10 +10,10 @@ function renderLicenseLink(license) { }
 // If there is no license, return an empty string
 function renderLicenseSection(license) { }
 
-// TODO: Create a function to generate markdown for README
-// Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
+// Created a function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
+  
   ## Description
   ${data.description}
 
@@ -27,7 +27,7 @@ function generateMarkdown(data) {
   ${data.usage}
 
   ## License
-  ${data.license}
+  ${data.license} ![GitHub license](https://img.shields.io/badge/license-mit-blue.svg)
 
   ## Contributing
   ${data.contributing}

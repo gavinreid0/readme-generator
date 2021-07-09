@@ -1,5 +1,5 @@
 # README Generator
-
+  
   ## Description
   This project was designed to create a README.md file based on user input!
 
@@ -13,11 +13,11 @@
   Once the application is on your machine use "npm install" in your terminal to install inquirer. Then simply run "node index.js" in your terminal to start the program!
 
   ## License
-  
+   ![GitHub license](https://img.shields.io/badge/license-mit-blue.svg)
 
   ## Contributing
-  N / A
+  Gavin Reid
 
   ## Questions
-  gavinreid94@gmail.com 
+  gavinreid94@gmail.com
 
