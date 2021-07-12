@@ -45,14 +45,14 @@ const questions = [
         ]
     },
     {
-      type: "input",
-      name: "contributing",
-      message: "Add any collaborators:",
+        type: "input",
+        name: "contributing",
+        message: "Add any collaborators: ",
     },
     {
-      type: "input",
-      name: "questions",
-      message: "Add contact information:",
+        type: "input",
+        name: "questions",
+        message: "Add contact information: ",
     },
 
 ];
@@ -69,8 +69,8 @@ function init() {
         const README = generateMarkdown(answers);
         return writeToFile("README.md", README)
     })
-    .catch(err => console.error(err));
+        .catch(err => console.error(err));
 }
 
-// Function call to initialize app
+// Function call to initialize app 
 init();
