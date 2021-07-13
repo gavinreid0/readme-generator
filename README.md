@@ -12,7 +12,7 @@
   ## Usage
   Once the application is on your machine use "npm install" in your terminal to install inquirer. Then simply run "node index.js" in your terminal to start the program!
 
-  ![ Alt text](README-Generator-DEMO.gif) / ! [](README-Generator-DEMO.gif)
+  ![ README Generator demonstration video!](README-Generator-DEMO.gif) 
 
   ## License
    ![GitHub license](https://img.shields.io/badge/license-mit-blue.svg)
